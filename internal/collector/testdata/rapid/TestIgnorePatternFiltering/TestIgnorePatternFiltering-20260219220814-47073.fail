@@ -1,0 +1,37 @@
+# 2026/02/19 22:08:14.618880 [TestIgnorePatternFiltering] [rapid] draw ext: "aa"
+# 2026/02/19 22:08:14.618884 [TestIgnorePatternFiltering] [rapid] draw n: 1
+# 2026/02/19 22:08:14.618885 [TestIgnorePatternFiltering] [rapid] draw stem: "a"
+# 2026/02/19 22:08:14.618886 [TestIgnorePatternFiltering] [rapid] draw otherExt: "aa"
+# 2026/02/19 22:08:14.618886 [TestIgnorePatternFiltering] [rapid] draw m: 0
+# 2026/02/19 22:08:14.619171 [TestIgnorePatternFiltering] path "a.aa" matched pattern "*.aa" but was NOT filtered from CollectorResult.FileEdits
+# 
+v0.4.8#14295451034659758238
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0

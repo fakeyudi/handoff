@@ -1,0 +1,50 @@
+# 2026/02/19 17:08:07.104199 [TestShellHistoryTimeWindowFiltering] [rapid] draw startOffset: 0
+# 2026/02/19 17:08:07.104213 [TestShellHistoryTimeWindowFiltering] [rapid] draw windowDuration: 60
+# 2026/02/19 17:08:07.104214 [TestShellHistoryTimeWindowFiltering] [rapid] draw nInside: 1
+# 2026/02/19 17:08:07.104214 [TestShellHistoryTimeWindowFiltering] [rapid] draw insideOffset0: 0
+# 2026/02/19 17:08:07.104216 [TestShellHistoryTimeWindowFiltering] [rapid] draw insideCmd0: "a"
+# 2026/02/19 17:08:07.104217 [TestShellHistoryTimeWindowFiltering] [rapid] draw nBefore: 1
+# 2026/02/19 17:08:07.104217 [TestShellHistoryTimeWindowFiltering] [rapid] draw beforeOffset0: 1
+# 2026/02/19 17:08:07.104218 [TestShellHistoryTimeWindowFiltering] [rapid] draw beforeCmd0: "a"
+# 2026/02/19 17:08:07.104218 [TestShellHistoryTimeWindowFiltering] [rapid] draw nAfter: 1
+# 2026/02/19 17:08:07.104219 [TestShellHistoryTimeWindowFiltering] [rapid] draw afterOffset0: 1
+# 2026/02/19 17:08:07.104219 [TestShellHistoryTimeWindowFiltering] [rapid] draw afterCmd0: "a"
+# 2026/02/19 17:08:07.104222 [TestShellHistoryTimeWindowFiltering] out-of-window command "a" (ts=2023-11-14 22:13:19 +0000 UTC) unexpectedly present in filtered result
+# 
+v0.4.8#14414097324998427547
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x1
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
+0x0
