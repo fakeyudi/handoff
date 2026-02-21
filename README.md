@@ -6,6 +6,18 @@ It captures file edits, terminal commands, git diffs, open editor tabs, and your
 
 ## Install
 
+### Homebrew
+
+```bash
+# Add the tap (if not in Homebrew Core)
+brew tap fakeyudi/handoff
+
+# Install
+brew install handoff
+```
+
+### From Source
+
 ```bash
 git clone <repo>
 cd handoff
@@ -17,6 +29,9 @@ Or build a binary directly:
 ```bash
 go build -o handoff .
 ```
+
+### Prebuilt Binaries
+Download from [Releases](https://github.com/fakeyudi/handoff/releases).
 
 ## Quick Start
 
