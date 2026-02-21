@@ -9,7 +9,7 @@ It captures file edits, terminal commands, git diffs, open editor tabs, and your
 ### Homebrew
 
 ```bash
-# Add the tap (if not in Homebrew Core)
+# Add the tap
 brew tap fakeyudi/handoff
 
 # Install
