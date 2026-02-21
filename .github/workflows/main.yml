@@ -38,11 +38,19 @@ jobs:
         with:
           go-version: '1.21'
       
-      - name: Build
+      - name: Build (Unix)
+        if: runner.os != 'Windows'
         run: |
           GOOS=${{ matrix.goos }} GOARCH=${{ matrix.goarch }} \
           go build -ldflags="-X main.Version=${{ github.ref_name }}" \
-          -o handoff-${{ matrix.goos }}-${{ matrix.goarch }}${{ matrix.goos == 'windows' && '.exe' || '' }} .
+          -o handoff-${{ matrix.goos }}-${{ matrix.goarch }} .
+      
+      - name: Build (Windows)
+        if: runner.os == 'Windows'
+        run: |
+          $env:GOOS="${{ matrix.goos }}"
+          $env:GOARCH="${{ matrix.goarch }}"
+          go build -ldflags="-X main.Version=${{ github.ref_name }}" -o handoff-${{ matrix.goos }}-${{ matrix.goarch }}.exe .
       
       - name: Upload to Release
         uses: softprops/action-gh-release@v1
